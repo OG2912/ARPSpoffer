@@ -1,2 +1,12 @@
-# ARPSpoffer
-A Python-based ARP spoofing tool that poisons the ARP cache of a target and gateway, allowing MITM interception on a local network. Built using scapy.
+# ARPSpoofer
+
+## 🧠 ARP Spoofing & MITM Tool
+
+Performs ARP poisoning between a target and gateway to redirect traffic through the attacker (MITM). For ethical hacking and learning only.
+
+---
+
+### ⚙️ Requirements
+
+```bash
+pip install scapy
